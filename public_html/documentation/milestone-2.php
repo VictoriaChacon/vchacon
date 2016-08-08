@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+	<html>
 	<head>
 		<meta charset="utf-8">
 		<title>Victoria's Personal Website part 2</title>
@@ -16,6 +16,7 @@
 			<li>Contact</li>
 		</ul>
 		<br>
+		<!--Content Strategy Begins Here-->
 		<h1>Content Strategy</h1>
 		<ul>
 			<li><strong>Home Page</strong>: I want this to feature some artwork of mine, im thinking for now a photo. This will then prompt the user to scroll down the page...I want this to be a single scroll page. </li>
@@ -27,7 +28,8 @@
 			<li><strong>Contact Page</strong>:This page will forward to my gmail through the webpage. I will have my contact through email, as my workload increases I will have a Facebook for my brand. For now I will limit it to email.</li>
 		</ul>
 		<br>
+		<!--Wireframe Image Starts here-->
 		<h1>WireFrame</h1>
-		<img src="images/wireframePersonalWebsite.svg">
+		<img src="images/wireframePersonalWebsite.svg" alt="Personal website desktop and mobile wireframes.">
 	</body>
 </html>
