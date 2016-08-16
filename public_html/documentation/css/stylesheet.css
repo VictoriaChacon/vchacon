@@ -1,0 +1,27 @@
+/*------------------- NAVBAR STUFF--------------------- */
+.container-fluid {
+	background-color: darkcyan;
+
+}
+.navbar-default .navbar-brand {
+	color: white;
+	;
+}
+.navbar-default .navbar-nav >li >a{
+	color: white;
+}
+
+.jumbotron {
+	text-align: center;
+}
+.thumbnail {
+	margin: 1em;
+}
+
+html { background: url("images/road2redone.jpg") no-repeat center center fixed;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
