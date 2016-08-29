@@ -17,7 +17,7 @@
 				integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 		<!--ADD CUSTOM CSS HERE-->
-		<link href="css/stylesheet.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/stylesheet.css" rel="stylesheet" type="text/css"/>
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -52,7 +52,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">Brand</a>
+						<a class="navbar-brand" href="index.php"><img src="../../public_html/images/vc-logo-white.png"></a>
 					</div>
 
 					<!--Collect the nav links, forms, and other content for toggling -->
@@ -64,10 +64,10 @@
 							</div>-->
 						</form>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">About Me</a></li>
-							<li><a href="#">Portfolio</a></li>
-							<li><a href="#">Contact Me</a></li>
+							<li><a href="../php/index.php">Home</a></li>
+							<li><a href="partials/About%20Me/aboutMe.php">About Me</a></li>
+							<li><a href="partials/Portfolio/portfolio.php">Portfolio</a></li>
+							<li><a href="partials/Contact Me/contactMe.php">Contact Me</a></li>
 						</ul>
 						</li>
 						</ul>
@@ -77,28 +77,19 @@
 		</header>
 		<main>
 			<div class="logo .col-xs-12">
-			<img src="images/vc-logo-white.png">
+			<img src="../images/vc-logo-white.png">
 			</div>
 			<!------------place Jumbotron here------------>
 			<div class="container">
 				<div class="col-xs-12">
 				<div class="col-lg-12">
-
 						<div class="jumbotron">
 						<h1>Graphic Designer, Web Developer, Artist </h1>
 						</div>
 					</div>
 				</div>
 			</div>
+<!------------------------End Jumbotron----------------------------->
 		</main>
 	</body>
 </html>
-
-<!---------------Dont think i need this, but will keep just in case--------------->
-<!---<li class="dropdown">
-	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-	<ul class="dropdown-menu">
-		<li><a href="#">Home</a></li>
-		<li><a href="#">About Me</a></li>
-		<li><a href="#">Portfolio</a></li>
-		<li role="separator" class="divider"></li>-->
