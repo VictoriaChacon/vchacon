@@ -23,7 +23,7 @@
 		</ul>
 		<br>
 		<!--Micheal Vanlandigham's picture-->
-		<img src=images/johndoe.jpg>
+		<img src=../images/johndoe.jpg>
 		<!--Persona starts here -->
 		<p><strong>Persona</strong> :Michael Vanlandingham
 		<br>

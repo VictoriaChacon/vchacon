@@ -1,0 +1,42 @@
+html {
+	background: url("../images/road2redone.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*------------------- NAVBAR STUFF-------------------------------------- */
+.navbar {
+	background: none;
+}
+.navbar-default .navbar-nav>li>a {
+	color: teal;
+}
+
+/*---------------------------JUMBOTRON STUFF---------------------------*/
+body {
+	background: none;
+}
+main {
+	background: none;
+}
+.container {
+	background: none;
+}
+.jumbotron {
+	background: none;
+	color: white;
+	padding-top:100px;
+	text-align: center;
+}
+.logo {
+	text-align: center;
+}
+.col-lg-12 {
+	align: left;
+}
+/*------------------------------Gallery---------------------------------*/
+
+
+/*-------------------------------Contact Form---------------------------*/

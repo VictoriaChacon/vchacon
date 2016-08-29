@@ -30,6 +30,6 @@
 		<br>
 		<!--Wireframe Image Starts here-->
 		<h1>WireFrame</h1>
-		<img src="images/wireframePersonalWebsite.svg" alt="Personal website desktop and mobile wireframes.">
+		<img src="../images/wireframePersonalWebsite.svg" alt="Personal website desktop and mobile wireframes.">
 	</body>
 </html>
