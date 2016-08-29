@@ -35,7 +35,7 @@
 
 		<!--ADD CUSTOM JS FILES HERE -->
 		<!--LINK HERE=-->
-		<title>Portfolio</title>
+		<title>Victorious Design</title>
 
 	</head>
 	<body>
