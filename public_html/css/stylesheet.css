@@ -53,7 +53,16 @@ main {
 /*--------------------------------ABOUT ME---------------------------*/
 .imageAbout {
 	border-color: black;
-	padding-top: 100px;
+	padding-top: 200px;
+}
+p {
+	color:white;
+}
+.aboutmetext {
+	text-align: right;
+	font-family: 'Oswald', sans-serif;
+	display: inline-flex;
+	background-color: black;
 }
 /*-------------------------------Contact
 Form---------------------------*/
