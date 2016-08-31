@@ -80,25 +80,35 @@
 		</header>
 		<main>
 			<div class="logo .col-xs-12">
-			<img src="images/vc-logo-white.png">
+				<img src="images/vc-logo-white.png">
 			</div>
 			<!------------place Jumbotron here------------>
 			<div class="container">
 				<div class="col-xs-12">
-				<div class="col-lg-12">
+					<div class="col-lg-12">
 						<div class="jumbotron">
-						<h1>Graphic Designer, Web Developer, Artist </h1>
+							<h1>Graphic Designer, Web Developer, Artist </h1>
 						</div>
 					</div>
 				</div>
 			</div>
-<!------------------------End Jumbotron----------------------------->\
-<!------------------------Begin Home Here------------------------>
-<div id ="homepage">
-	<a id="homepage"></a>
+			<!------------------------End Jumbotron----------------------------->\
+			<!------------------------Begin Home Here------------------------>
+			<div id="homepage">
+				<div class="container . col-lg-12 .col-md-6">
+					<a id="homepage"></a>
+					<p>Hello! Welcome to my webpage. Scroll down to learn more about Victorious Desgin and what I can do for you and your next project.</p>
 
-
-</div>
+				</div>
+			</div>
+<!----------------------------Begin About Me Page----------------->
+			<div class = container>
+				<div id="aboutMe">
+					<div class =imageAbout>
+					<img src="../public_html/images/victoriaVector.jpg">
+					</div>
+				</div>
+			</div>
 		</main>
 	</body>
 </html>
