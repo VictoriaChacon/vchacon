@@ -17,7 +17,7 @@
 				integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 		<!--ADD CUSTOM CSS HERE-->
-		<link href="../css/stylesheet.css" rel="stylesheet" type="text/css"/>
+		<link href="css/stylesheet.css" rel="stylesheet" type="text/css"/>
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -32,6 +32,9 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
+		<!---------Google Font---------------->
+		<link href="https://fonts.googleapis.com/css?family=Oswald:300," rel="stylesheet">
+
 
 		<!--ADD CUSTOM JS FILES HERE -->
 		<!--LINK HERE=-->
@@ -52,7 +55,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.php"><img src="../../public_html/images/vc-logo-white.png"></a>
+						<a class="navbar-brand" href="index.php"><img src="images/vc-logo-white.png"></a>
 					</div>
 
 					<!--Collect the nav links, forms, and other content for toggling -->
@@ -64,10 +67,10 @@
 							</div>-->
 						</form>
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="../php/index.php">Home</a></li>
-							<li><a href="partials/About%20Me/aboutMe.php">About Me</a></li>
-							<li><a href="partials/Portfolio/portfolio.php">Portfolio</a></li>
-							<li><a href="partials/Contact Me/contactMe.php">Contact Me</a></li>
+							<li><a href="#homepage">Home</a></li>
+							<li><a href="#">About Me</a></li>
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">Contact Me</a></li>
 						</ul>
 						</li>
 						</ul>
@@ -77,7 +80,7 @@
 		</header>
 		<main>
 			<div class="logo .col-xs-12">
-			<img src="../images/vc-logo-white.png">
+			<img src="images/vc-logo-white.png">
 			</div>
 			<!------------place Jumbotron here------------>
 			<div class="container">
@@ -89,7 +92,13 @@
 					</div>
 				</div>
 			</div>
-<!------------------------End Jumbotron----------------------------->
+<!------------------------End Jumbotron----------------------------->\
+<!------------------------Begin Home Here------------------------>
+<div id ="homepage">
+	<a id="homepage"></a>
+
+
+</div>
 		</main>
 	</body>
 </html>

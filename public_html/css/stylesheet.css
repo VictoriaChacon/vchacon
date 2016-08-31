@@ -1,17 +1,15 @@
 html {
-	background: url("../images/road2redone.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background-image: url("../images/road2redone.jpg");
 }
-
 /*------------------- NAVBAR STUFF-------------------------------------- */
 .navbar {
-	background: none;
+	background: black;
+	height: 10px;
 }
 .navbar-default .navbar-nav>li>a {
 	color: white;
+	font-family: 'Oswald', sans-serif;
+
 }
 .navbar-brand>img {
 	width: 50px;
@@ -43,7 +41,9 @@ main {
 	align: left;
 	background: none;
 }
-/*------------------------------Gallery---------------------------------*/
+/*------------------------------HomePage---------------------------------*/
+#homepage {
+}
 
-
-/*-------------------------------Contact Form---------------------------*/
+/*-------------------------------Contact
+Form---------------------------*/
