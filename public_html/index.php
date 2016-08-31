@@ -105,6 +105,7 @@
 			<div class = container>
 				<div id="aboutMe">
 					<div class =imageAbout>
+					<h1>About Me</h1>
 					<img src="../public_html/images/victoriaVector.jpg">
 					<p class="aboutmetext">I am a fifty bagels thought of simply as almanacs. The unturfed television reveals itself as a northmost typhoon to those who look. Visitors are hoggish flutes. The milkshake of a neon becomes an unled epoxy.
 
@@ -112,6 +113,7 @@
 					</div>
 				</div>
 			</div>
+<!-----------------------------END about me page------------------->
 		</main>
 	</body>
 </html>

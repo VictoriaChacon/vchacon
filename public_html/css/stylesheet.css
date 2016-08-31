@@ -51,6 +51,10 @@ main {
 }
 
 /*--------------------------------ABOUT ME---------------------------*/
+h1 {
+	color: white;
+}
+
 .imageAbout {
 	border-color: black;
 	padding-top: 200px;
@@ -59,9 +63,8 @@ p {
 	color:white;
 }
 .aboutmetext {
-	text-align: right;
+	text-align: left;
 	font-family: 'Oswald', sans-serif;
-	display: inline-flex;
 	background-color: black;
 }
 /*-------------------------------Contact
