@@ -48,7 +48,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Oswald:300," rel="stylesheet">
 
 		<!-------------SWIPEBOX Css code/ link ------------------------>
-		<link rel="stylesheet" href="src/css/swipebox.css">
+		<link rel="stylesheet" href="css/swipebox.css">
 		<!---------------recaptcha---------------------->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
