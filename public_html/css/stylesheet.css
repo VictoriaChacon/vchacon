@@ -1,71 +1,65 @@
+/* Navbar Stuff */
 html {
-	background-image: url("../images/road2redone.jpg");
-}
-/*------------------- NAVBAR STUFF-------------------------------------- */
-.navbar {
-	background: black;
-	height: 10px;
-}
-.navbar-default .navbar-nav>li>a {
-	color: white;
-	font-family: 'Oswald', sans-serif;
-
-}
-.navbar-brand>img {
-	width: 50px;
-	height: 50px;
-	padding-bottom: 10px;
-}
-
-/*---------------------------JUMBOTRON STUFF---------------------------*/
-body {
-	background: none;
-}
-main {
-	background: none;
-}
-.container {
-	background: none;
-}
-.jumbotron {
-	background: none;
-	color: white;
-	padding-top:100px;
-	text-align: center;
-}
-.logo {
-	text-align: center;
-	background: none;
-}
-.col-lg-12 {
-	align: left;
-	background: none;
-}
-/*------------------------------HomePage---------------------------------*/
-
-#homepage {
-	color: white;
-	text-align: center;
-	font-family: 'Oswald', sans-serif;
-	font-size: 18pt;
-}
-
-/*--------------------------------ABOUT ME---------------------------*/
-h1 {
-	color: white;
-}
-
-.imageAbout {
-	border-color: black;
-	padding-top: 200px;
-}
-p {
-	color:white;
-}
-.aboutmetext {
-	text-align: left;
-	font-family: 'Oswald', sans-serif;
 	background-color: black;
 }
-/*-------------------------------Contact
-Form---------------------------*/
+
+/* home page stuff */
+#homepage{
+	background-image: url("../images/benchClose.jpg");
+	background-size: cover;
+	height: 50em;
+	color: white;
+	text-align: center;
+
+}
+.jumbotron {
+	background-color: rgba(0,0,0,0.7);
+	margin-top: 15em;
+
+}
+
+#aboutMe {
+	color:white;
+	background: black;
+}
+.mainAboutMe {
+	float: right;
+	height: 100px
+}
+
+.aboutMeImageBack {
+	max-width: 100%;
+	height:auto;
+}
+.aboutMeImage {
+	float: right;
+}
+.aboutmetext {
+	padding-right: 500px;
+	position: inherit;
+	float: left;
+}
+.titlePage {
+	text-align: center;
+}
+.swipebox {
+
+}
+.portfolio {
+	background: black;
+}
+.contactMe {
+	background: black;
+}
+.captionTitle {
+	text-align: center;
+	font-size: 60pt;
+	max-height: 100%;
+	max-width: 100%;
+}
+.captionDescription {
+	text-align: center;
+	max-height: 100%;
+	max-width: 100%;
+	padding-bottom: 21em;
+}

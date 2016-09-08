@@ -60,23 +60,15 @@
 
 					<!--Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<form class="navbar-form navbar-left">
-							<!---------------------DONT NEED THIS AT THIS STAGE------------------->
-							<!--<div class="form-group">
-								<input type="text" class="form-control" placeholder="Search">
-							</div>-->
-						</form>
 						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#homepage">Home</a></li>
 							<li><a href="#">About Me</a></li>
 							<li><a href="#">Portfolio</a></li>
 							<li><a href="#">Contact Me</a></li>
 						</ul>
-						</li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-					<!--</div><!-- /.container-fluid -->
-					<!--</nav>-->
+					</div><!--.navbar-collapse -->
+				</div> <!--.container-fluid-->
+			</nav>
 		</header>
 		<main>
 			<div class="logo .col-xs-12">
@@ -97,23 +89,98 @@
 			<div id="homepage">
 				<div class="container . col-lg-12 .col-md-6">
 					<a id="homepage"></a>
-					<p>Hello! Welcome to my webpage. Scroll down to learn more about Victorious Desgin and what I can do for you and your next project.</p>
+					<p>Hello! Welcome to my webpage. Scroll down to learn more about Victorious Desgin and what I can do for
+						you and your next project.</p>
 
 				</div>
 			</div>
-<!----------------------------Begin About Me Page----------------->
-			<div class = container>
+			<!----------------------------Begin About Me Page----------------->
+			<div class=container>
 				<div id="aboutMe">
-					<div class =imageAbout>
-					<h1>About Me</h1>
-					<img src="../public_html/images/victoriaVector.jpg">
-					<p class="aboutmetext">I am a fifty bagels thought of simply as almanacs. The unturfed television reveals itself as a northmost typhoon to those who look. Visitors are hoggish flutes. The milkshake of a neon becomes an unled epoxy.
+					<div class=imageAbout>
+						<h1>About Me</h1>
+						<img src="../public_html/images/victoriaVector.jpg">
+						<p class="aboutmetext">I am a fifty bagels thought of simply as almanacs. The unturfed television
+							reveals itself as a northmost typhoon to those who look. Visitors are hoggish flutes. The milkshake
+							of a neon becomes an unled epoxy.
 
-						This could be, or perhaps they were lost without the changing organisation that composed their shampoo. Their syrup was, in this moment, a housebound receipt. Soybeans are negroid circles. A longhand sunshine without balineses is truly a representative of pukka taxicabs.</p>
+							This could be, or perhaps they were lost without the changing organisation that composed their
+							shampoo. Their syrup was, in this moment, a housebound receipt. Soybeans are negroid circles. A
+							longhand sunshine without balineses is truly a representative of pukka taxicabs.</p>
 					</div>
 				</div>
 			</div>
-<!-----------------------------END about me page------------------->
+			<!-----------------------------END about me page------------------->
+			<!-----------------------Being Portfolio Page--------------------->
+			<div class="row">
+				<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="../public_html/images/johndoe.jpg" alt="johndoe">
+
+					</a>
+					<div class="row">
+						<div class="col-xs-6 col-md-3">
+							<a href="#" class="thumbnail">
+								<img src="../public_html/images/victoriaVector.jpg" alt="Victoria">
+							</a>
+						</div>
+					</div>
+				</div>
+				...
+			</div>
+			<!----------------------------contact form----------------------------->
+			<!--Begin Contact Form-->
+			<form id="contact-form" action="php/mailer.php" method="post">
+				<div class="form-group">
+					<label for="name">Name <span class="text-danger">*</span></label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="email">Email <span class="text-danger">*</span></label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="subject">Subject</label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-pencil" aria-hidden="true"></i>
+						</div>
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="message">Message <span class="text-danger">*</span></label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="fa fa-comment" aria-hidden="true"></i>
+						</div>
+						<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
+					</div>
+				</div>
+
+				<!-- reCAPTCHA -->
+				<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+
+				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+				<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+			</form>
+
+			<!--empty area for form error/success output-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="output-area"></div>
+				</div>
+			</div>
 		</main>
 	</body>
 </html>
