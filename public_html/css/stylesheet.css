@@ -32,6 +32,7 @@ html {
 	height:auto;
 }
 .aboutMeImage {
+	padding-top: 1em;
 	float: right;
 }
 .aboutmetext {
@@ -49,7 +50,7 @@ html {
 	background: black;
 }
 .contactMe {
-	background: black;
+	background: teal;
 }
 .captionTitle {
 	text-align: center;
@@ -62,4 +63,10 @@ html {
 	max-height: 100%;
 	max-width: 100%;
 	padding-bottom: 21em;
+}
+.col-md-offset {
+	float: right;
+}
+.col-xs-4 {
+	float: left;
 }

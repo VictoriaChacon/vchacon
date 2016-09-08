@@ -26,12 +26,16 @@
 		<![endif]-->
 
 		<!--jQuery-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+		<!-- jQuery (required for Bootstap's JS plugins) -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
 
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
@@ -42,9 +46,6 @@
 				  crossorigin="anonymous"></script>
 		<!---------Google Font---------------->
 		<link href="https://fonts.googleapis.com/css?family=Oswald:300," rel="stylesheet">
-		<!----------SWIPEBOX.JS Code for gallery--------------------->
-		<script src="lib/jquery-2.0.3.js"></script>
-		<script src="src/js/jquery.swipebox.js"></script>
 
 		<!-------------SWIPEBOX Css code/ link ------------------------>
 		<link rel="stylesheet" href="src/css/swipebox.css">
@@ -108,10 +109,10 @@
 		<section class="aboutMe" id="aboutMe">
 			<div class="container">
 				<div class="row">
-					<div class=col-xs-12>
+					<div class="image, col-xs-4 col-md-offset-10">
 						<h1 class="titlePage">About Me</h1>
 
-						<div class=aboutMeText><p>I am a fifty bagels thought of simply as almanacs. The unturfed television
+						<div><p>I am a fifty bagels thought of simply as almanacs. The unturfed television
 								reveals itself as a northmost typhoon to those who look. Visitors are hoggish flutes. The
 								milkshake
 								of a neon becomes an unled epoxy.
@@ -120,6 +121,8 @@
 								shampoo. Their syrup was, in this moment, a housebound receipt. Soybeans are negroid circles. A
 								longhand sunshine without balineses is truly a =representative of pukka taxicabs.</p>
 						</div>
+					</div>
+					<div class="col-xs-4 col-md-offset 12">
 						<img src="images/victoriaVector.jpg" class="aboutMeImage">
 					</div>
 				</div>
@@ -136,57 +139,57 @@
 						<!----------------carousel object here with most recent work-------->
 						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 							<div class=".col-xs-12">
-							<!-- Indicators -->
-							<ol class="carousel-indicators">
-								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-							</ol>
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+								</ol>
 
-							<!-- Wrapper for slides -->
-							<div class="carousel-inner" role="listbox">
-								<div class="item active">
-									<img src="images/pinkFlower.jpg" alt="pink flower">
-									<div class="carousel-caption">
-										<h1 class="captionTitle">The Alamo Tour</h1>
-										<p class="captionDescription">San Antonio Texas</p>
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner" role="listbox">
+									<div class="item active">
+										<img src="images/pinkFlower.jpg" alt="pink flower">
+										<div class="carousel-caption">
+											<h1 class="captionTitle">The Alamo Tour</h1>
+											<p class="captionDescription">San Antonio Texas</p>
+										</div>
 									</div>
-								</div>
-								<div class="item">
-									<img src="images/road2redone.jpg" alt="road to Colorado">
-									<div class="carousel-caption">
+									<div class="item">
+										<img src="images/road2redone.jpg" alt="road to Colorado">
+										<div class="carousel-caption">
 
+										</div>
 									</div>
-								</div>
-								<div class="item">
-									<img src="images/benchClose.jpg" alt="bench at the Albuquerque Zoo">
-									<div class="carousel-caption">
+									<div class="item">
+										<img src="images/benchClose.jpg" alt="bench at the Albuquerque Zoo">
+										<div class="carousel-caption">
 
+										</div>
 									</div>
-								</div>
-								<div class="item">
-									<img src="images/foodie.jpg" alt="crumbtrail app">
-									<div class="carousel-caption">
+									<div class="item">
+										<img src="images/foodie.jpg" alt="crumbtrail app">
+										<div class="carousel-caption">
 
+										</div>
 									</div>
-								</div>
 
-								<!-- Controls -->
-								<a class="left carousel-control" href="#carousel-example-generic" role="button"
-									data-slide="prev">
-									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-									<span class="sr-only">Previous</span>
-								</a>
-								<a class="right carousel-control" href="#carousel-example-generic" role="button"
-									data-slide="next">
-									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-									<span class="sr-only">Next</span>
-								</a>
+									<!-- Controls -->
+									<a class="left carousel-control" href="#carousel-example-generic" role="button"
+										data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#carousel-example-generic" role="button"
+										data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
 								</div>
 							</div>
-		<!-------------------carosuel end--------------------------------->
-		<!-------------------SWIPEBOX html here???------------------------>
+							<!-------------------carosuel end--------------------------------->
+							<!-------------------SWIPEBOX html here???------------------------>
 						</div>
 					</div>
 				</div>
@@ -200,6 +203,7 @@
 					</div>
 				</div>
 		</section>
+		<div class="blankspace"
 		<!-------------------------------------------------------------->
 		<!-------------------Contact Me--------------------------------->
 		<!-------------------------------------------------------------->
@@ -208,6 +212,8 @@
 				<div class="row">
 					<div class="col-xs-12">
 					</div>
+					<h1 class="titlePage"> Contact Me </h1>
+
 					<!--Begin Contact Form-->
 					<form id="contact-form" action="php/mailer.php" method="post">
 						<div class="form-group">
@@ -243,14 +249,15 @@
 								<div class="input-group-addon">
 									<i class="fa fa-comment" aria-hidden="true"></i>
 								</div>
-								<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
+								<textarea class="form-control" rows="5" id="message" name="message"
+											 placeholder="Message (2000 characters max)"></textarea>
 							</div>
 						</div>
 
 						<!-- reCAPTCHA -->
 						<div class="g-recaptcha" data-sitekey="6Le2sykTAAAAAEdf0SSQXqkshfF_6jNfbye1-4WU
 "></div>
-					<!----------------google recaptcha----------------->
+						<!----------------google recaptcha----------------->
 
 
 						<button class="btn btn-info" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
