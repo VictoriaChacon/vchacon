@@ -4,7 +4,7 @@ html {
 }
 
 /* home page stuff */
-#homepage{
+#homepage {
 	background-image: url("../images/benchClose.jpg");
 	background-size: cover;
 	height: 50em;
@@ -12,18 +12,18 @@ html {
 	text-align: center;
 
 }
+
 .jumbotron {
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 	margin-top: 15em;
 
 }
 
 #aboutMe {
-	color:white;
+	color: white;
 	background: black;
 	text-align: center;
 }
-
 
 .titlePage {
 	text-align: center;
@@ -33,33 +33,43 @@ html {
 .portfolio {
 	background: black;
 }
+
 .contactMe {
 	background: teal;
 
-
 }
+
 .col-md-offset {
 	float: right;
 
 }
+
 #carousel-example-generic {
+	width: 100%;
 }
+
 .blankspace {
- 	padding-top: 5em;
-	background-color:black;
+	padding-top: 5em;
+	background-color: black;
 }
-.carousel {
-	margin-left: 100px;
-}
+
+/*.carousel {*/
+	/*width: 100%*/
+/*}*/
+
 .aboutMeImage {
 	align-content: right;
 }
 
 @media only screen and (max-width: 750px) {
 	#carousel-example-generic {
-		width: 17em;
-		height: 20em;
+		width: 90%;
+		height: 100%;
 
+	}
+
+	.carousel-control {
+		max-width: 90%;
 	}
 
 }
