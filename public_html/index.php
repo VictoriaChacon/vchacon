@@ -26,7 +26,19 @@
 		<![endif]-->
 
 		<!--jQuery-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+		<!-- jQuery (required for Bootstap's JS plugins) -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
@@ -34,6 +46,11 @@
 				  crossorigin="anonymous"></script>
 		<!---------Google Font---------------->
 		<link href="https://fonts.googleapis.com/css?family=Oswald:300," rel="stylesheet">
+
+		<!-------------SWIPEBOX Css code/ link ------------------------>
+		<!--		<link rel="stylesheet" href="css/swipebox.css">-->
+		<!---------------recaptcha---------------------->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 
 		<!--ADD CUSTOM JS FILES HERE -->
@@ -43,8 +60,7 @@
 	</head>
 	<body>
 		<header>
-			<!------------place Navbar here---------------->
-			<nav class="navbar navbar-default">
+			<nav class="navbar.transparent navbar-inverse .col-xs-12">
 				<div class="container-fluid">
 					<!--Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
@@ -55,132 +71,213 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.php"><img src="images/vc-logo-white.png"></a>
 					</div>
 
 					<!--Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#homepage">Home</a></li>
-							<li><a href="#">About Me</a></li>
-							<li><a href="#">Portfolio</a></li>
-							<li><a href="#">Contact Me</a></li>
+							<li><a href="#Home">Home</a></li>
+							<li><a href="#About Me">About Me</a></li>
+							<li><a href="#Portfolio">Portfolio</a></li>
+							<li><a href="#ConactMe">Contact Me</a></li>
 						</ul>
 					</div><!--.navbar-collapse -->
 				</div> <!--.container-fluid-->
 			</nav>
 		</header>
-		<main>
-			<div class="logo .col-xs-12">
-				<img src="images/vc-logo-white.png">
-			</div>
-			<!------------place Jumbotron here------------>
+		<!----------------------------------------------------------------------->
+		<!------------------------------ Home Section---------------------------->
+		<!----------------------------------------------------------------------->
+		<section class="home" id="homepage">
+			<a name="Home"></a>
 			<div class="container">
-				<div class="col-xs-12">
-					<div class="col-lg-12">
+				<div class="row">
+					<div class="col-xs-12">
+						<!--------------------------Jumbotron------------------------------>
 						<div class="jumbotron">
-							<h1>Graphic Designer, Web Developer, Artist </h1>
+							<h1>Web Designer, Graphic Designer, Writer, and Artist</h1>
+							<p>From web design,graphic design, photography, illustration, and writing Victorious Design can
+								help you build your brand </p>
+
 						</div>
 					</div>
 				</div>
 			</div>
-			<!------------------------End Jumbotron----------------------------->\
-			<!------------------------Begin Home Here------------------------>
-			<div id="homepage">
-				<div class="container . col-lg-12 .col-md-6">
-					<a id="homepage"></a>
-					<p>Hello! Welcome to my webpage. Scroll down to learn more about Victorious Desgin and what I can do for
-						you and your next project.</p>
+		</section>
+		<!--------------------------------------------------------------------->
+		<!----------------------------About Me--------------------------------->
+		<!--------------------------------------------------------------------->
+		<section class="aboutMe" id="aboutMe">
+			<a name="About Me"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6"></div>
+					<div class="col-md-6"></div>
+					<h1 class="titlePage">About Me</h1>
 
-				</div>
-			</div>
-			<!----------------------------Begin About Me Page----------------->
-			<div class=container>
-				<div id="aboutMe">
-					<div class=imageAbout>
-						<h1>About Me</h1>
-						<img src="../public_html/images/victoriaVector.jpg">
-						<p class="aboutmetext">I am a fifty bagels thought of simply as almanacs. The unturfed television
-							reveals itself as a northmost typhoon to those who look. Visitors are hoggish flutes. The milkshake
+					<div><p class="aboutmetext">I am a fifty bagels thought of simply as almanacs. The unturfed television
+							reveals itself as a northmost typhoon to those who look. Visitors are hoggish flutes. The
+							milkshake
 							of a neon becomes an unled epoxy.
 
 							This could be, or perhaps they were lost without the changing organisation that composed their
 							shampoo. Their syrup was, in this moment, a housebound receipt. Soybeans are negroid circles. A
-							longhand sunshine without balineses is truly a representative of pukka taxicabs.</p>
+							longhand sunshine without balineses is truly a =representative of pukka taxicabs.</p>
 					</div>
 				</div>
+				<img src="images/victoriaVector.jpg" class="aboutMeImage">
 			</div>
-			<!-----------------------------END about me page------------------->
-			<!-----------------------Being Portfolio Page--------------------->
-			<div class="row">
-				<div class="col-xs-6 col-md-3">
-					<a href="#" class="thumbnail">
-						<img src="../public_html/images/johndoe.jpg" alt="johndoe">
+			</div>
+			</div>
+		</section>
+		<!------------------------------------------------------------------->
+		<!-------------------------Portfoilo--------------------------------->
+		<!------------------------------------------------------------------->
+		<section class="portfolio" id="portfolioPage">
+			<a name="Portfolio"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12"></div>
+					<h1 class="titlePage"> Most Recent Work </h1>
+					<!----------------carousel object here with most recent work-------->
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+						</ol>
 
-					</a>
-					<div class="row">
-						<div class="col-xs-6 col-md-3">
-							<a href="#" class="thumbnail">
-								<img src="../public_html/images/victoriaVector.jpg" alt="Victoria">
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img src="images/pinkFlower.jpg" alt="pink flower">
+								<div class="carousel-caption">
+									<h1 class="captionTitle">The Alamo Tour</h1>
+									<p class="captionDescription">San Antonio Texas</p>
+								</div>
+							</div>
+							<div class="item">
+								<img src="images/pinkLavenderSky.jpg" alt="Next to Navajo Lake">
+								<div class="carousel-caption">
+
+								</div>
+							</div>
+							<div class="item">
+								<img src="images/benchClose.jpg" alt="bench at the Albuquerque Zoo">
+								<div class="carousel-caption">
+
+								</div>
+							</div>
+							<div class="item">
+								<img src="images/yellowFlowerLadyBug.jpg" alt="flower">
+								<div class="carousel-caption">
+
+								</div>
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#carousel-example-generic" role="button"
+								data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#carousel-example-generic" role="button"
+								data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
 							</a>
 						</div>
 					</div>
-				</div>
-				...
-			</div>
-			<!----------------------------contact form----------------------------->
-			<!--Begin Contact Form-->
-			<form id="contact-form" action="php/mailer.php" method="post" novalidate>
-				<div class="form-group">
-					<label for="name">Name <span class="text-danger">*</span></label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-user" aria-hidden="true"></i>
-						</div>
-						<input type="text" class="form-control" id="name" name="name" placeholder="Name">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="email">Email <span class="text-danger">*</span></label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</div>
-						<input type="email" class="form-control" id="email" name="email" placeholder="Email">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="subject">Subject</label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-pencil" aria-hidden="true"></i>
-						</div>
-						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="message">Message <span class="text-danger">*</span></label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-comment" aria-hidden="true"></i>
-						</div>
-						<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
-					</div>
-				</div>
-
-				<!-- reCAPTCHA -->
-				<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
-
-				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-				<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-			</form>
-
-			<!--empty area for form error/success output-->
-			<div class="row">
-				<div class="col-xs-12">
-					<div id="output-area"></div>
+					<!-------------------carosuel end--------------------------------->
+					<!-------------------SWIPEBOX html here???------------------------>
+					<!--						</div>-->
+					<!--					</div>-->
+					<!--				</div>-->
+					<!---->
+					<!--				<div class="row">-->
+					<!--					<div class="col-xs-12">-->
+					<!--						<h1 class="titlePage"> Other Works</h1>-->
+					<!--						<a href="images/pinkFlower.jpg" class="swipebox" title="Pink Flower">-->
+					<!--							<img src="images/pinkFlower.jpg" alt="Pink Flower">-->
+					<!--						</a>-->
+					<!--						<a href="images/pinkLavenderSky.jpg" class="swipebox" title="Pink Sky">-->
+					<!--							<img src="images/pinkLavenderSky.jpg" alt="pink sky">-->
+					<!--						</a>-->
 				</div>
 			</div>
-		</main>
+		</section>
+		<div class="blankspace"
+		<!-------------------------------------------------------------->
+		<!-------------------Contact Me--------------------------------->
+		<!-------------------------------------------------------------->
+		<section class="contactMe">
+			<a name="ConactMe"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+					</div>
+					<h1 class="titlePage"> Contact Me </h1>
+
+					<!--Begin Contact Form-->
+					<form id="contact-form" action="php/mailer.php" method="post">
+						<div class="form-group">
+							<label for="name">Name <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="email">Email <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</div>
+								<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="subject">Subject</label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-pencil" aria-hidden="true"></i>
+								</div>
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="message">Message <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+								</div>
+								<textarea class="form-control" rows="5" id="message" name="message"
+											 placeholder="Message (2000 characters max)"></textarea>
+							</div>
+						</div>
+
+						<!-- reCAPTCHA -->
+						<div class="g-recaptcha" data-sitekey="6Le2sykTAAAAAEdf0SSQXqkshfF_6jNfbye1-4WU
+"></div>
+						<!----------------google recaptcha----------------->
+
+
+						<button class="btn btn-info" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+						<button class="btn btn-info" type="reset"><i class="fa fa-ban"></i> Reset</button>
+					</form>
+
+					<!--empty area for form error/success output-->
+					<div class="row">
+						<div class="col-xs-12">
+							<div id="output-area"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 </html>

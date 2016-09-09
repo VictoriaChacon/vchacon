@@ -21,52 +21,45 @@ html {
 #aboutMe {
 	color:white;
 	background: black;
-}
-.mainAboutMe {
-	float: right;
-	height: 100px
-}
-
-.aboutMeImageBack {
-	max-width: 100%;
-	height:auto;
-}
-.aboutMeImage {
-	padding-top: 1em;
-	float: right;
-}
-.aboutmetext {
-	padding-right: 500px;
-	position: inherit;
-	float: left;
-}
-.titlePage {
 	text-align: center;
 }
-.swipebox {
 
+
+.titlePage {
+	text-align: center;
+	color: white;
 }
+
 .portfolio {
 	background: black;
 }
 .contactMe {
 	background: teal;
-}
-.captionTitle {
-	text-align: center;
-	font-size: 60pt;
-	max-height: 100%;
-	max-width: 100%;
-}
-.captionDescription {
-	text-align: center;
-	max-height: 100%;
-	max-width: 100%;
-	padding-bottom: 21em;
+
+
 }
 .col-md-offset {
 	float: right;
+
 }
-.col-xs-4 {
-	float: left;
+#carousel-example-generic {
+}
+.blankspace {
+ 	padding-top: 5em;
+	background-color:black;
+}
+.carousel {
+	margin-left: 100px;
+}
+.aboutMeImage {
+	align-content: right;
+}
+
+@media only screen and (max-width: 750px) {
+	#carousel-example-generic {
+		width: 17em;
+		height: 20em;
+
+	}
+
 }
