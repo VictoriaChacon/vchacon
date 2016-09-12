@@ -53,6 +53,7 @@
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 
+
 		<!--ADD CUSTOM JS FILES HERE -->
 		<!--LINK HERE=-->
 		<title>Victorious Design</title>
@@ -261,8 +262,8 @@
 						</div>
 
 						<!-- reCAPTCHA -->
-						<div class="g-recaptcha" data-sitekey="6Le2sykTAAAAAEdf0SSQXqkshfF_6jNfbye1-4WU
-"></div>
+						<div class="g-recaptcha" data-sitekey="6Lcx-CkTAAAAAKT-Gsr0iZ8hokCZDdOkXBUytm0r"></div>
+
 						<!----------------google recaptcha----------------->
 
 
