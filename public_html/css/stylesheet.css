@@ -61,15 +61,12 @@ html {
 	align-content: right;
 }
 
-@media only screen and (max-width: 750px) {
-	#carousel-example-generic {
-		width: 90%;
-		height: 100%;
+/*@media only screen and (max-width: 750px) {*/
+	/*#carousel-example-generic {*/
+		/*width: 90%;*/
+		/*height: 100%;*/
 
-	}
 
 	.carousel-control {
 		max-width: 90%;
 	}
-
-}
